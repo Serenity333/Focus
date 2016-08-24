@@ -1,7 +1,7 @@
 from tkinter import Tk
 
 #create the Application and master frame
-class Application(tk.Frame):
+class Application(Tk.Frame):
   def __init__(self, master=NONE):
     #remember parent to child relationship with master
     super().__init__(master)
