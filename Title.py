@@ -5,7 +5,7 @@ class Application(tk.Frame):
   def __init__(self, master=NONE):
     #remember parent to child relationship with master
     super().__init__(master)
-    background_image = tk.PhotoImage(file='C:\Users\hp\Downloads\seven_pointed.gif')
+    background_image = tk.PhotoImage(file='C:\\Users\\hp\\Downloads\\seven_pointed.gif')
     background_label = tk.Label(self, image = background_image)
     self.pack()
     self.create_buttons()
